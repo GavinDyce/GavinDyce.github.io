@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+	color: #ffffff;
 	font-size: 32px;
 }
 
@@ -18,14 +19,31 @@ h2 {
 
 .hero {
 	background-image: url('http://i.imgur.com/0RgrxAd.jpg');
-	background-position: center bottom;
+	background-position: center center;
 	background-size: cover;
 	padding: 250px 0;
-	margin: 30px;
+	margin: 0;
 	text-shadow: 0 2px #000000;
 	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
+a.btn {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+	transition: scale 1.5s linear ;
+}
+
+a.btn:hover {
+	box-shadow: 0px 8px 8px rgba(34,62,66,.9);
+	transform: scale(1.2);
+}
 
 p {
 	color: #ffffff;
@@ -33,7 +51,6 @@ p {
 }
 
 .hero a {
-	color: #00FFAA;
 	font-size: 24px;
 	text-decoration: none;
 }
