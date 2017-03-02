@@ -76,7 +76,10 @@ header a:hover {
 	margin-left: auto;
 	margin-right: auto;
 	border: 5px solid white;
-	width: 20%
+	width: 20%;
+	min-width: 300px;
+
+
 }
 
 p {
