@@ -1,0 +1,97 @@
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 32px;
+	font-size: 3em;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 56px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+	color: #000;
+	font-family: 'Great Vibes', cursive;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+	color: #000;
+  padding: 0 20px;
+  margin: 0;
+}
+
+header a {
+	color: #000;
+  padding: 0 20px;
+  margin: 0;
+	font-size: 30px;
+	transition: transform 1s linear;
+}
+
+header a:hover {
+	color: black;
+	text-decoration: none;
+	transform: scale(1.2);
+
+}
+
+.hero {
+	background-image: url('../images/unnamed.jpg');
+	background-position: center center;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 0;
+	width: 100%
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
+
+}
+
+.box {
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid white;
+	width: 20%
+}
+
+p {
+	color: #ffffff;
+	font-size: 3em;
+	font-family: 'Poiret One', cursive;
+}
+
+.hero a {
+	font-size: 24px;
+	text-decoration: none;
+
+}
+
+#footer {
+	color: DarkSlateGray;
+	font-size: 16px;
+}
